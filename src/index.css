@@ -250,12 +250,12 @@ button { cursor: pointer; font-family: inherit; }
 .p-label-new { font-size:11px; font-weight:700; letter-spacing:.14em; color:#6b7280; margin-bottom:20px; text-transform:uppercase; }
 .p-card-highlight .p-label-new { color:rgba(255,255,255,.7); }
 
-.p-price-row { display:flex; align-items:flex-start; gap:2px; margin-bottom:6px; }
-.p-pound { font-size:22px; font-weight:700; color:#1c1c1e; line-height:1; margin-top:8px; }
+.p-price-row { display:flex; align-items:baseline; gap:1px; margin-bottom:6px; }
+.p-pound { font-size:clamp(28px,3.8vw,40px); font-weight:800; color:#1c1c1e; line-height:1; }
 .p-card-highlight .p-pound { color:#fff; }
-.p-amount { font-size:clamp(48px,5vw,62px); font-weight:800; letter-spacing:-0.03em; color:#1c1c1e; line-height:1; }
+.p-amount { font-size:clamp(28px,3.8vw,40px); font-weight:800; letter-spacing:-0.02em; color:#1c1c1e; line-height:1; }
 .p-card-highlight .p-amount { color:#fff; }
-.p-period-new { font-size:15px; color:#6b7280; margin-left:6px; align-self:flex-end; margin-bottom:6px; }
+.p-period-new { font-size:14px; color:#6b7280; margin-left:8px; font-weight:400; }
 .p-card-highlight .p-period-new { color:rgba(255,255,255,.7); }
 
 .p-savings-row { display:flex; align-items:center; gap:10px; margin-bottom:6px; }
@@ -268,8 +268,8 @@ button { cursor: pointer; font-family: inherit; }
 .p-divider { border:none; border-top:1px solid #e5e7eb; margin-bottom:24px; }
 .p-card-highlight .p-divider { border-color:rgba(255,255,255,.2); }
 
-.p-features { list-style:none; display:flex; flex-direction:column; gap:14px; flex:1; margin-bottom:32px; }
-.p-features li { display:flex; align-items:flex-start; gap:10px; font-size:14px; font-weight:500; color:#1c1c1e; line-height:1.5; }
+.p-features { list-style:none; display:flex; flex-direction:column; gap:10px; flex:1; margin-bottom:28px; }
+.p-features li { display:flex; align-items:flex-start; gap:10px; font-size:14px; font-weight:500; color:#1c1c1e; line-height:1.45; }
 .p-card-highlight .p-features li { color:#fff; font-weight:600; }
 .p-check { color:#3B82F6; font-weight:700; font-size:15px; flex-shrink:0; margin-top:1px; }
 .p-card-highlight .p-check { color:#fff; }
