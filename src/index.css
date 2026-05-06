@@ -240,8 +240,10 @@ button { cursor: pointer; font-family: inherit; }
 .p-grid { display:grid; grid-template-columns:1fr; gap:20px; }
 @media(min-width:768px){ .p-grid{ grid-template-columns:repeat(3,1fr); } }
 
-.p-card-new { position:relative; background:#fff; border-radius:20px; padding:32px; display:flex; flex-direction:column; box-shadow:0 1px 4px rgba(0,0,0,.06); }
+.p-card-new { position:relative; background:#fff; border-radius:20px; padding:32px; display:flex; flex-direction:column; box-shadow:0 1px 4px rgba(0,0,0,.06); transition:transform .25s ease, box-shadow .25s ease; }
+.p-card-new:hover { transform:translateY(-6px); box-shadow:0 16px 40px rgba(0,0,0,.12); }
 .p-card-new.p-card-highlight { background:#3B82F6; color:#fff; }
+.p-card-new.p-card-highlight:hover { box-shadow:0 16px 40px rgba(59,130,246,.4); }
 
 .p-badge { position:absolute; top:-14px; right:20px; background:#1c1c1e; color:#fff; font-size:11px; font-weight:800; letter-spacing:.1em; padding:6px 14px; border-radius:9999px; }
 
