@@ -27,14 +27,16 @@ export default function Header() {
 
       <header className="header">
         <div className="header-inner">
-          <a href="#" className="logo">
-            <span className="logo-text">Boost<span style={{ color: '#5B8FF9' }}>AI</span></span>
-          </a>
-          <ul className="nav-links">
-            <li><a href="#">Maths</a></li>
-            <li><a href="#">Physics</a></li>
-            <li><a href="#">Chemistry</a></li>
-          </ul>
+          <div className="header-left">
+            <a href="#" className="logo">
+              <span className="logo-text">Boost<span style={{ color: '#5B8FF9' }}>AI</span></span>
+            </a>
+            <ul className="nav-links">
+              <li><a href="#">Maths</a></li>
+              <li><a href="#">Physics</a></li>
+              <li><a href="#">Chemistry</a></li>
+            </ul>
+          </div>
           <div className="nav-right">
             <a href="#" className="nav-login">Login</a>
             <a href="#" className="btn-signup">Sign up for Free</a>
