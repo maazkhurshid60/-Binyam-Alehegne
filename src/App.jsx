@@ -7,7 +7,6 @@ import ColorBlocks from './components/ColorBlocks'
 import Features from './components/Features'
 import StatsBanner from './components/StatsBanner'
 import ExamBoards from './components/ExamBoards'
-import CostComparison from './components/CostComparison'
 import Reviews from './components/Reviews'
 import Philosophy from './components/Philosophy'
 import WhyWeStarted from './components/WhyWeStarted'
@@ -50,7 +49,7 @@ export default function App() {
       <StatsBanner />
       <ExamBoards />
       <ColorBlocks colors={['#1e3a8a','#1d4ed8','#1e3a8a','#1d4ed8','#1e3a8a']} flexes={[2,1.2,2.5,1,1.5]} />
-      <CostComparison />
+      <Pricing />
       <ColorBlocks colors={['#60A5FA','#93C5FD','#60A5FA','#BFDBFE','#60A5FA']} flexes={[2.5,1.5,2,1,2]} />
       <Reviews />
       <ColorBlocks colors={['#60A5FA','#93C5FD','#60A5FA','#93C5FD','#60A5FA']} flexes={[2,1.5,2.5,1,2]} />
@@ -58,7 +57,6 @@ export default function App() {
       <WhyWeStarted />
       <ColorBlocks colors={['#60A5FA','#93C5FD','#60A5FA','#93C5FD','#60A5FA']} flexes={[2,1.5,2.5,1,2]} />
       <Teachers />
-      <Pricing />
       <ColorBlocks colors={['#1e3a8a','#1d4ed8','#1e3a8a','#1d4ed8','#1e3a8a']} flexes={[2,1.5,2.5,1,2]} />
       <FAQ />
       <Blog />
